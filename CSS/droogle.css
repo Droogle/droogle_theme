@@ -1,0 +1,136 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #222222;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #222222;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #222222;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #222222;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #222222;
+}
+
+p {
+  font-size: 15px;
+  color: #222222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.alumniContainer {
+  height: 250px;
+  width: 250px;
+  background-size: 250px 250px;
+}
+
+.alumniContainer:hover { 
+  opacity:0.5; 
+  background: rgba(0, 0, 0, 0.7);
+  background-size: 250px 250px;
+}
+
+.alumniContainer h3 {
+  opacity: 0;
+  color: #26B2D6;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.alumniContainer:hover h3 {
+  opacity: 1;
+}
+
+.alumniContainer h4 {
+  text-align: center;
+  opacity: 0;
+  color: #26B2D6;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+.alumniContainer:hover h4 {
+  opacity: 1;
+}
+
+.blog {
+  height: 200px;
+  width: 350px;
+}
+
+.blog-details {
+  height: 250px;
+  width: 250px;
+}
+
+.button {
+  background-color: #FFFFFF; 
+  border: none;
+  color: white;
+  padding: 16px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  outline: 10px solid #000000;
+}
+
+.button1:hover {
+  background-color: #FFFFFF;
+  color: black;
+  outline: 2px solid #000000;
+}
+
+/**ONLY FOR ELEMENTS.HTML**/
+
+#textBox {
+  margin-top: 10px;
+  background-color: #53B0EB;
+  border: 10px solid #0A3744;
+}
+
+#alumni {
+  background-color: #0D7DC1;
+  border: 10px solid #125566;
+}
+
+#banner {
+  background-color: #064771;
+  border: 10px solid #1B829C;
+}
+
+#logo {
+  background-color: #0678BE;
+  border: 10px solid #26B2D6;
+}
