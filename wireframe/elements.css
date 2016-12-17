@@ -1,0 +1,93 @@
+/**
+*@elements.css
+*
+*CSS file for implementation of main elements of Drupal's GCI/GSoC Blog website in elements.html
+*Includes headings, paragraph, alumni images, blog images, blog-details images and buttons
+*CSS elements specific to elements.html and not entire website
+*/
+
+/*Grey background for entire page*/
+body {
+  background-color: #4c4c4c;
+}
+
+/*Styleguide for elements in white background*/
+#left {
+  background-color: #fff;
+  text-align: center; 
+}
+#left h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #222222;
+}
+
+/*Styleguide for elements in black background*/
+#right {
+  background-color: #000000;
+  text-align: center;
+}
+#right h1 {
+  color: #fff;
+}
+#right h2 {
+  color: #fff;
+}
+#right h3 {
+  color: #fff;
+}
+#right h4 {
+  color: #fff;
+}
+#right h5 {
+  color: #fff;
+}
+#right p {
+  color: #fff;
+}
+
+/*Div elements to show color palette*/
+.palette {
+  width: 70px;
+  height: 70px;
+}
+.Row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+.Column {
+  display: table-cell;
+  width: 70px;
+  height: 70px;
+}
+
+/*White button*/
+.button1 {
+  background-color: #fff; 
+  color: #000000; 
+  outline: 10px solid #000000;
+  /*Outline instead of Border so that button does not change position on hover*/
+}
+.button1:hover {
+  background-color: #fff;
+  color: #000000;
+  outline: 2px solid #000000;
+}
+
+/*Black button*/
+.button2 {
+  background-color: #000000; 
+  color: #fff; 
+  outline: 10px solid #fff;
+  /*Outline instead of Border so that button does not change position on hover*/
+}
+.button2:hover {
+  background-color: #000000;
+  color: #fff;
+  outline: 2px solid #fff;
+}
