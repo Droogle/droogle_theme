@@ -1,0 +1,112 @@
+/**
+*@droogle.css
+*
+*CSS file for main elements of Drupal's GCI/GSoC Blog website
+*Includes headings, paragraph, alumni images, blog images, blog-details images and buttons
+*/
+
+/*Rulesets for 5 headings and paragraph*/
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  color: #222222;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  color: #222222;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: #222222;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #222222;
+}
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  color: #222222;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #222222;
+}
+
+/*Rulesets for Alumni Pictures and Alumni Pictures on Hover */
+.alumniContainer {
+  height: 250px;
+  width: 250px;
+  background-size: 250px 250px;
+  background-color: #000000;
+}
+.alumniContainer h3 {
+  opacity: 0;
+  color: #26b2d6;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.alumniContainer h4 {
+  text-align: center;
+  opacity: 0;
+  color: #26b2d6;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+.alumniContainer:hover { 
+  opacity: 0.7; 
+  /*Tints image on hover*/
+}
+.alumniContainer:hover h3 {
+  opacity: 1;
+}
+.alumniContainer:hover h4 {
+  opacity: 1;
+}
+
+/*Ruleset for blog images*/
+.blog {
+  height: 200px;
+  width: 350px;
+}
+
+/*Ruleset for blog-details images*/
+.blog-details {
+  height: 250px;
+  width: 250px;
+}
+
+/*Rulesets for both White and Black Buttons*/
+.whiteButton {
+  background-color: #fff; 
+  border: none;
+  color: black;
+  padding: 16px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.blackButton {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 16px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
