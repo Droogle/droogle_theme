@@ -1,0 +1,104 @@
+/**
+ * @file
+ * Layout For home, contact, blogs, blogpost, alumni page
+ */
+
+ /* Typographies. */
+  h1 {
+  font-family: "Roboto";
+  font-size: 50px;
+  color: #222222;
+ }
+ h2 {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #222222;
+ }
+ h3 {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #222222;
+ }
+ h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #222222;
+ }
+ h5 {
+  font-family: "Roboto";
+  font-size: 10px;
+  color: #222222;
+ }
+p {
+  font-size: 15px;
+  color: #222222;
+  }
+
+/* Ruleset for Buttons */
+.blackButton {
+  color: white;
+  padding: 20px 60px; 
+  display: inline-block;
+  margin: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  border: 4px solid white;
+  background-color: black;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.whiteButton {
+  color: #222222;
+  padding: 20px 60px; 
+  display: inline-block;
+  margin: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  border: 4px solid #222222;
+  background-color: white;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+/* Alumni Images*/
+.alumniImage {
+  width: 250px;
+  height: 250px;
+  background-size: 250px 250px;
+  background-color:black ;
+  opacity: 1;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.alumniImage h3 {
+  margin-top: 25px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.alumniImage h4 {
+  margin-top: 25px;
+  opacity: 0;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  text-align: center;
+}
+.alumniImage:hover {
+  opacity: 0.7;
+}
+.alumniImage:hover h3,
+.alumniImage:hover h4 {
+  opacity: 1;
+}
+
+/* Drupal Logos */
+.blogImage {
+  width: 350px;
+  height: 250px;
+}
+.blogDetails{
+  width: 250px;
+  height: 250px;
+}
+
