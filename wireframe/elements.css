@@ -1,0 +1,67 @@
+html,body{
+	height:100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	overflow-x:hidden;
+}
+#left {
+  display:inline-block;
+  width:50%;
+  float: left;
+  background: white;
+  color: #222222;
+}
+#right {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  background: rgb(33, 33, 33);
+  color: #FFFFFF;
+}
+.container {
+  height: 100%;
+  width: 98%;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+.palette-col {
+	margin-top:10px;
+	display:inline-block;
+	width:100%;
+}
+.palette-col > div {
+	float:left;
+	width:25%;
+}
+#right h1,
+#right h2,
+#right h3,
+#right h4,
+#right h5,
+#right p {
+  color: white;
+}
+.hexcode {
+  font-weight: bold;
+}
+.colorBlock {
+  width:60px;
+  height:60px;
+  margin-top:5px;
+}
+.alumni-size {
+  float:left;
+  display:inline-block;
+  margin-top:20px;
+  width:50%;
+  text-align: center;
+  position:absolute;
+  top:45%;
+}
+.alumni-image {
+  margin-top:20px;
+  float:left;
+  opacity:0.7;
+}

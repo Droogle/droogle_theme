@@ -35,9 +35,8 @@ p {
   }
 
 /* Ruleset for Buttons */
-.blackButton {
-  color: white;
-  padding: 20px 60px; 
+.black-button {
+  padding: 11px 51px;
   display: inline-block;
   margin: 3px;
   cursor: pointer;
@@ -47,9 +46,8 @@ p {
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
-.whiteButton {
-  color: #222222;
-  padding: 20px 60px; 
+.white-button {
+  padding: 11px 51px;
   display: inline-block;
   margin: 3px;
   cursor: pointer;
@@ -59,9 +57,15 @@ p {
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
+.black-button:hover {
+  border: 1px solid white;
+}
+.white-button:hover {
+  border: 1px solid #222222;
+}
 
 /* Alumni Images*/
-.alumniImage {
+.alumni-image {
   width: 250px;
   height: 250px;
   background-size: 250px 250px;
@@ -70,34 +74,34 @@ p {
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
-.alumniImage h3 {
+.alumni-image h3 {
   margin-top: 25px;
   text-align: center;
   opacity: 0;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
-.alumniImage h4 {
+.alumni-image h4 {
   margin-top: 25px;
   opacity: 0;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
   text-align: center;
 }
-.alumniImage:hover {
+.alumni-image:hover {
   opacity: 0.7;
 }
-.alumniImage:hover h3,
-.alumniImage:hover h4 {
+.alumni-image:hover h3,
+.alumni-image:hover h4 {
   opacity: 1;
 }
 
 /* Drupal Logos */
-.blogImage {
+.blog-image {
   width: 350px;
   height: 250px;
 }
-.blogDetails{
+.blog-details{
   width: 250px;
   height: 250px;
 }
