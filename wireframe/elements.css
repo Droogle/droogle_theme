@@ -65,3 +65,65 @@ html,body{
   float:left;
   opacity:0.7;
 }
+.title {
+  font-weight: 800;
+  font-size: 17px; 
+  margin-top:5px;
+}
+.typography-element {
+  margin-top: 7px;
+  margin-bottom:0px;
+}
+.typography-font {
+  margin-top:2px;
+  font-size:14px;
+}
+.section-title {
+  margin-top: 20px;
+  font-weight:bold;
+}
+.subsection-title {
+  margin-top:10px;
+  font-weight:300;
+}
+
+/* Primary Colors */
+.background-53B0EB {
+  background: #53B0EB;
+}
+.background-0D7DC1 {
+  background: #0D7DC1;
+}
+.background-064771 {
+  background: #064771;
+}
+.background-0678BE {
+  background: #0678BE;
+}
+
+/* Secondary Colors */
+.background-0A3744 {
+  background: #0A3744;
+}
+.background-125566 {
+  background: #125566;
+}
+.background-1B829C {
+  background: #1B829C;
+}
+.background-26B2D6 {
+  background: #26B2D6;
+}
+
+/* Content Colors */
+.background-222222 {
+  background: #222222;
+}
+
+/* Buttons */
+.whiteButton {
+  margin-top: 10px;
+}
+.whiteButton-hover{
+  border-width: 1px;
+}
