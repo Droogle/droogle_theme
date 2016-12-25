@@ -29,31 +29,20 @@ p {
   }
 
 /* Ruleset for Buttons */
-.black-button {
+.button {
   padding: 11px 51px;
   display: inline-block;
   margin: 3px;
   cursor: pointer;
   font-size: 15px;
-  border: 4px solid white;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
+  outline-width: 4px;
+  outline-style: solid;
+  text-transform: uppercase;
 }
-.white-button {
-  padding: 11px 51px;
-  display: inline-block;
-  margin: 3px;
-  cursor: pointer;
-  font-size: 15px;
-  border: 4px solid #222222;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
-.black-button:hover {
-  border: 1px solid white;
-}
-.white-button:hover {
-  border: 1px solid #222222;
+.button:hover {
+  outline-width: 1px;
 }
 
 /* Alumni Images*/
@@ -62,29 +51,19 @@ p {
   height: 250px;
   background-size: 250px 250px;
   background-color:black ;
-  opacity: 1;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
 }
-.alumni-image h3 {
-  margin-top: 25px;
-  text-align: center;
-  opacity: 0;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
+.alumni-image h3,
 .alumni-image h4 {
   margin-top: 25px;
+  text-align: center;
   opacity: 0;
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
-  text-align: center;
 }
 .alumni-image:hover {
-  opacity: 0.7;
-}
-.alumni-image-hover {
-  opacity: 0.7;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 .alumni-image:hover h3,
 .alumni-image:hover h4 {

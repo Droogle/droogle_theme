@@ -134,6 +134,12 @@ html,body{
 .black-button {
   margin-top: 10px;
 }
+.black-button {
+  outline-color: white;
+}
+.white-button {
+  outline-color: #222222;
+}
 
 /* Alumni Image Elements Layout */
 .alumni-size {
@@ -146,12 +152,12 @@ html,body{
   top:45%;
 }
 .alumni-image {
-  margin-top:20px;
   background-image: url('https://avatars0.githubusercontent.com/u/2955158?v=3&s=400');
   float:left;
 }
 .alumni-image-element {
   width:100%;
+  margin-top: 12px;
   display:inline-block;
   position:relative;
 }
@@ -159,6 +165,7 @@ html,body{
 .alumni-image h4 {
   color:rgb(20, 104, 190);
 }
+
 
 /* Blog Images */
 .blog-image {
