@@ -131,8 +131,8 @@ body{
 }
 
 /* Buttons Layout */
-.white-button,
-.black-button {
+.btn-white,
+.btn-black {
   margin-top: 10px;
 }
 
