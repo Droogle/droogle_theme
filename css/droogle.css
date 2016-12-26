@@ -29,7 +29,7 @@ p {
 }
 
 /* Ruleset for Buttons */
-.button {
+.btn {
   padding: 11px 51px;
   display: inline-block;
   margin: 3px;
@@ -43,13 +43,13 @@ p {
   outline-style: solid;
   text-transform: uppercase;
 }
-.button:hover {
+.btn:hover {
   outline-width: 1px;
 }
-.black-button {
+.btn-black {
   outline-color: white;
 }
-.white-button {
+.btn-white {
   outline-color: #222222;
 }
 
