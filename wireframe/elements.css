@@ -1,0 +1,185 @@
+/**
+ * @file
+ * Layout for elements.html
+ */
+
+ /* Layout Properties for html, body */
+html,
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+/* Left and Right Sections */
+#left {
+  display:inline-block;
+  width:50%;
+  float: left;
+  background: white;
+  color: #222222;
+}
+#right {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  background: rgb(33, 33, 33);
+  color: #FFFFFF;
+}
+
+/* p typographies */
+.p-normal {
+  font-weight: 400;
+}
+.p-bold {
+  font-weight: bold;
+}
+
+/* Right Sections typographies */
+#right h1,
+#right h2,
+#right h3,
+#right h4,
+#right h5,
+#right p {
+  color: white;
+}
+
+/* Container  */
+.container {
+  height: 100%;
+  width: 98%;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+/* Color Palette */
+.palette-col {
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
+}
+.palette-col > div {
+	float: left;
+	width: 25%;
+}
+.hexcode {
+  font-weight: bold;
+}
+.colorBlock {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+}
+
+/* Typography Elements */
+.typography-element {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+.typography-font {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+/* Section class for titles */
+.section-title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.subsection-title {
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* Primary Colors */
+.background-53B0EB {
+  background: #53B0EB;
+}
+.background-0D7DC1 {
+  background: #0D7DC1;
+}
+.background-064771 {
+  background: #064771;
+}
+.background-0678BE {
+  background: #0678BE;
+}
+
+/* Secondary Colors */
+.background-0A3744 {
+  background: #0A3744;
+}
+.background-125566 {
+  background: #125566;
+}
+.background-1B829C {
+  background: #1B829C;
+}
+.background-26B2D6 {
+  background: #26B2D6;
+}
+.background-FFFFFF {
+  background: #FFFFFF;
+}
+
+/* Content Colors */
+.background-222222 {
+  background: #222222;
+}
+
+/* Buttons Layout */
+.btn-white,
+.btn-black {
+  margin-top: 10px;
+}
+
+/* Alumni Image Elements Layout */
+.alumni-size {
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+}
+.alumni-image {
+  background-image: url('https://avatars0.githubusercontent.com/u/2955158?v=3&s=400');
+  float: left;
+}
+.alumni-image-element {
+  width: 100%;
+  margin-top: 12px;
+  display: inline-block;
+  position: relative;
+}
+.alumni-image h3,
+.alumni-image h4 {
+  color: rgb(20, 104, 190);
+}
+
+
+/* Blog Images */
+.blog-image {
+  background-image: url("http://nirvanacanada.com/businessonline/wp-content/uploads/2013/03/Drupal-blog-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 12px;
+}
+.blog-details-image {
+  background-image: url("https://www.drupal.org/files/druplicon-small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 12px;
+}
+.blog-image-size {
+  text-align: center;
+  width: 350px;
+}
+.blog-details-image-size {
+  text-align: center;
+  width: 250px;
+}
